@@ -1,0 +1,42 @@
+.faqs {
+  padding: 40px 16px;
+  background-color: #c7ccccb1;
+  color: #0d0e0e;
+}
+
+.faqs h3 {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -1;
+  line-height: 45px;
+}
+
+.faqs p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.faq-items {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.faq {
+  flex: 1;
+  padding: 16px;
+  background-color: #f6f3f399;
+  border: 1px solid #fdfeff;
+  border-radius: 8px;
+}
+
+.faq h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.faq p {
+  font-size: 14px;
+  font-weight: 400;
+}

@@ -1,0 +1,46 @@
+.how-it-works {
+    padding: 40px 16px;
+    background-color: #c2c8c8;
+    color: #0d0e0e;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .how-it-works h3 {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -1;
+    line-height: 45px;
+  }
+  
+  .how-it-works p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .steps {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+  }
+  
+  .step {
+    flex: 1;
+    padding: 16px;
+    background-color: #f6f3f399;
+    border: 1px solid #fdfeff;
+    border-radius: 8px;
+  }
+  
+  .step h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  
+  .step p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  

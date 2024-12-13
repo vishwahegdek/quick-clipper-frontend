@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background-color: #c2c8c8;
+  color: #0f1013;
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Ensures spacing between links and button */
+}
+
+nav ul {
+  display: flex; /* Makes list items (links) horizontal */
+  gap: 20px; /* Adds spacing between links */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block; /* Ensures the list items stay inline */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0a0c0f;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #5d98d3; /* Hover effect for links */
+}
+
+.get-started {
+  background-color: #0a0b0b;
+  color: #f7fafc;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started:hover {
+  opacity: 0.9;
+}

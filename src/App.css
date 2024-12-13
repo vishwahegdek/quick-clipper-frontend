@@ -1,0 +1,15 @@
+.app {
+  background-color: #191c1b;
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f9ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,78 @@
+.main-content {
+  padding: 160px 160px;
+  color: #141212;
+  background-color: #cad2cf;
+  background-image: url('C:\Users\sathy\frontend\ccq\src\assets\bgimg.svg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-blend-mode:darken;
+  background: rgba(240, 237, 237, 0.5)url(C:\Users\sathy\frontend\ccq\src\assets\bgimg.svg);
+  
+}
+
+
+
+.hero{
+  position: relative;
+  z-index: 2;
+}
+
+.hero h2 {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 60px;
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.choose-file,
+.upload {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #e8edf2;
+  color: #0d141c;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload {
+  background-color: #e8edf2;
+  color: #0d141c;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #d1dbe8;
+  border-radius: 12px;
+}
+
+.summarize {
+  background-color: #0b0d0f;
+  color: #f7fafc;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
